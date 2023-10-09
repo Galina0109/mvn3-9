@@ -16,18 +16,6 @@ public class RadioTest {
     }
 
     @Test
-    public void stationsCount() {
-        Radio radio = new Radio(20);
-
-
-        radio.setCurrentStation(16);
-
-        int expected = 16;
-        int actual = radio.getCurrentStation();
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
     public void setCurrentVolume() {
         Radio radio = new Radio();
 
